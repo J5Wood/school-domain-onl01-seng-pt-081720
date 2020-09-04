@@ -18,7 +18,6 @@ class School
       @roster[grade] = []
       @roster[grade] << name
     end
-    binding.pry
   end
 
   def grade(grade)
