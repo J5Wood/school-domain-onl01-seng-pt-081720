@@ -27,8 +27,10 @@ class School
 
 
   def sort
-    @roster.map{|k,v|v.sort}
-    binding.pry
+    i= 0
+    while i < @roster.length
+      @roster.to_a[i][1].sort!
+      i +=1
   end
 
 end
