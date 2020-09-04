@@ -29,7 +29,7 @@ class School
   def sort
     i= 0
     while i < @roster.length
-      @roster.to_a[i][1].sort!
+      @roster.to_a[i][1].sort.to_h!
       i +=1
     end
   end
