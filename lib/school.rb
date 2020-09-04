@@ -13,7 +13,6 @@ class School
 
   def add_student(name, grade)
     if @roster.none? { |grade| grade }
-      binding.pry
       @roster[grade] = []
       @roster[grade] << name
     else
