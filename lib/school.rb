@@ -27,8 +27,7 @@ class School
 
 
   def sort
-    @roster.sort.to_h
-    binding.pry
+    @roster.map{|k,v|v.sort}
   end
 
 end
