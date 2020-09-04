@@ -32,6 +32,7 @@ class School
       @roster.to_a[i][1].sort.to_h!
       i +=1
     end
+    @roster
   end
 
 end
