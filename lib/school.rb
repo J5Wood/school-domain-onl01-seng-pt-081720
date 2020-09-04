@@ -31,6 +31,7 @@ class School
     while i < @roster.length
       @roster.to_a[i][1].sort!
       i +=1
+    end
   end
 
 end
